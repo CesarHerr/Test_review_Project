@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    margin-left: 0;
+
+}
+
+.container {
+    margin-left: 250px;
+
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+ul, code {
+    margin-left: 20px;
+}
+
+code {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px)  {
+    
+    
+    nav {
+    position: inherit;
+    margin-left: 0;  
+    }   
+    .container {
+        margin-left: 5px;
+    
+    }
+          
+    
+    ul, code {
+        margin-left: 0;
+    }
+    
+  
+
+}
